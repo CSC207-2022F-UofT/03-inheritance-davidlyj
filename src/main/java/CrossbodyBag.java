@@ -50,6 +50,6 @@
 
     @Override
     public String toString() {
-        return super.getColor() + " Crossbody Bag with " + this.numberOfStraps + " straps";
+        return String.format("Crossbody Bag with %d straps", this.numberOfStraps);
     }
  }
