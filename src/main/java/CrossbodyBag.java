@@ -50,6 +50,6 @@
 
     @Override
     public String toString() {
-        return String.format("Crossbody Bag with %d straps", this.numberOfStraps);
+        return String.format("%s Crossbody Bag with %d straps (%d/%d)", super.getColor(), this.numberOfStraps, this.getNumberOfContents(), this.getCapacity());
     }
  }
